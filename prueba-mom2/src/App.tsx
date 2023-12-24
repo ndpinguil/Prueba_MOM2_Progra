@@ -1,14 +1,13 @@
-
 import './App.css'
-import Prueba from './pages/Prueba.tsx'
+import CardApi  from './HeroCard.tsx';
+
 function App() {
-  
 
   return (
-    <div>
-      <Prueba/>
-    </div>
-  )
+    <>
+      <CardApi term=''/>
+    </>
+  );
 }
 
 export default App
